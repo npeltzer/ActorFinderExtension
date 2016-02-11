@@ -1,0 +1,57 @@
+﻿body {
+    min-width: 500px;
+    background: linear-gradient( #FFD700,#B8860B);
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+a{
+    text-decoration:none;
+}
+#display {
+    float: left;
+    height: 187.5px;
+    width: 125px;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: black;
+    margin: 5px;
+}
+
+.posters {
+    display: inline-block;
+    height: 225px;
+    width: 166px;
+    clear: both;
+    vertical-align: top;
+}
+
+#knownFor {
+    align-items:center;
+}
+.links:link, .links:visited{
+    color:black;
+  
+}
+.links:hover{
+    color:gray;
+  
+}
+.posters > a > img {
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+}
+.posters > h3{
+   
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#bio {
+    display: inline-block;
+}
+
+#name {
+    float: right;
+}

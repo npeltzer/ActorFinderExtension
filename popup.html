@@ -1,0 +1,29 @@
+﻿<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Testing</title>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="tmdb.js"> </script>
+    <script src="getActor.js"></script>
+    <link href="Layout.css" rel="stylesheet" />
+</head>
+<body>
+   
+        <form action="#" id="search">
+            <input type="text" id="nameField" placeholder="Search for an actor here." required />
+            <input type="submit" for="search" value="Submit" />
+        </form>
+     <div id="container">
+        <div id="bio">
+            <img id="display">
+            <h1 id="name"></h1>
+            <h2><a id="wiki" target="_blank"></a></h2>
+        </div>
+        <h2 id="kf">Movies Known For:</h2>
+        <div id="knownFor">
+
+        </div>
+    </div>
+</body>
+</html>
